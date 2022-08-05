@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="US-ASCII" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+    <ui:composition template="./plantillaEmpleado.xhtml">
+        <h:head>
+            <title>Principal</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"/>
+
+        </h:head>
+        <ui:define name="content">
+            <div class="container text-center">
+                <div id="carouselExampleSlidesOnly" class="carousel slide " data-ride="carousel">
+                    <div class="carousel-inner text-center">
+                        <div class="carousel-item active">
+                            <img class="d-block" width="1124" height="512" src="./template/images/pizza1.jpg" alt="First slide"/>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block" width="1124" height="512" src="./template/images/hamburguesa1.jpg" alt="Second slide"/>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block" width="1124" height="512" src="./template/images/pizza2.jpg" alt="Third slide"/>
+                        </div>
+                    </div>
+                </div>
+                <br />
+                <h1>Bienvenido a "Pizzeria Don Bosco"</h1>
+                <p class="lead">Aplicacion para la Gestion de una Pizzeria<br/> Usted se a logueado Como Empleado.</p>
+            </div><!-- /.container -->
+        </ui:define>
+    </ui:composition>
+</html>
